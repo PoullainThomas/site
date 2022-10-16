@@ -40,7 +40,7 @@ label, #toggle
 }
 body{
     margin: 0px;
-    background-image: url(6D3B68DB-906C-436D-A706-3592B57289A8_1_201_a.jpeg); 
+    background-image: url(./photo/6D3B68DB-906C-436D-A706-3592B57289A8_1_201_a.jpeg); 
     background-position: center center;
     background-size: cover;
     width: 100vw;
@@ -103,7 +103,7 @@ body{
  
     body .photos{
         margin: 0px;
-        background-image: url(DSCF1162.JPG); 
+        background-image: url(./photo/DSCF1162.JPG); 
         background-position: center center;
         background-size: cover;
         width: 100vw;
