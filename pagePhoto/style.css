@@ -40,13 +40,15 @@ label, #toggle
 /* --------------------main----------------- */
 main .container{
     display: inline-block;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 8%;
+    margin-left: 8%;
 }
 main .container img{
     display: flex;
+    flex-wrap: wrap;
     width: 70vh;
     height: 50vh;
+    margin: 10px;
 }
 main .container .image1{
     float: left;
