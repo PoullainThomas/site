@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(225, 225, 225);
+}
 .menu h3{
     float: left;
     margin-left: 15%;
@@ -60,11 +63,10 @@ main a {
 }
 main #content  {
     opacity: 0;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
-    /* top: 1%; */
+    /* top: 0px; */
     /* left: 0; */
-    color: #000000;
     background-color: rgba(200, 200, 200, 0.5);
     width: 70vh;
     height: 50vh;
@@ -75,9 +77,6 @@ main #content  {
     transition: all 400ms ease-out;
     text-align: center;
 }
-main #content:hover {
-  opacity: 1;
-}
 /* main #content{
   height: 0%;
   opacity: 1;
@@ -87,9 +86,10 @@ main #content:hover {
 } */
 main  #content:hover {
   opacity: 1;
-  transform: translateY(25vh);
-  -webkit-transform: translateY(25vh);
+  transform: translateY(2vh);
+  -webkit-transform: translateY(2vh);
 }
+/* --------- responsive -------- */
 @media all and (max-width: 890px)
 {
     header .menu{
