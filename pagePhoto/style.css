@@ -60,6 +60,8 @@ main .container img{
 main a {
     text-decoration: none;
     color: black;
+    border-top-width: 100vh;
+    border-top-style:block ;
 }
 main #content  {
     opacity: 0;
