@@ -1,0 +1,80 @@
+/* ---------- HEADER --------- */
+.menu h3{
+    float: left;
+    margin-left: 15%;
+    color: rgb(255, 255, 255);
+}
+.menu{
+    margin-left: 10%;
+    width: 75%;
+    position: absolute;
+    z-index: 4;
+}
+.onglet .main_pages 
+{
+    float: right;
+    margin-top: 1%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.onglet .main_pages a 
+{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.onglet .main_pages .contact{
+    color: white;
+}
+
+label, #toggle
+{
+    display: none;
+}
+body{
+    background-color: black;
+    overflow-y: hidden;
+}
+
+
+
+
+/* ---------- diapo 1 -------- */
+
+  .slider {
+    width: 100%;
+    top: 15%;
+    left: 1%;
+    position: absolute;
+    overflow: auto ;
+  }
+  .slider-viewport {
+    width: 100%;
+    height: 80vh;
+    overflow: visible;
+  }
+  .slider-content {
+    display: grid;
+    grid-auto-flow: column;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    animation: infinite;
+  }
+  .slider-content img {
+    width: 50vh;
+    margin-right: 20px;
+  }
+  .slider-content img:hover{
+    opacity: O;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+            box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+    width: 55vh;
+  }
